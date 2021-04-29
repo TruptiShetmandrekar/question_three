@@ -2,16 +2,9 @@ package result;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Enter two numbers");
-		int f=50;
-		int s=43;
-		System.out.println(f +""+s);
-		int sum=f+s;
-		int diff=f-s;
-		int mul=f*s;
-		System.out.println("the sum of two numbers is: "+sum);
-		System.out.println("the diff of two numbers is: "+diff);
-		System.out.println("the multiplication of two numbers is: "+mul);
+		Operations o = new Operations();
+		o.op();
+		
 	}
 	
 
